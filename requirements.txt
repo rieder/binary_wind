@@ -1,4 +1,5 @@
 amuse-framework>=2023.10
 amuse-smalln>=2023.10
 amuse-seba>=2023.10
+amuse-fi>=2023.10
 matplotlib
