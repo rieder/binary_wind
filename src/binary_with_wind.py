@@ -33,11 +33,11 @@ from amuse.community.smalln import Smalln
 from amuse.community.fi import Fi
 try:
     from amuse.community.gadget2 import Gadget2
-except:
+except ImportError:
     Gadget2 = None
 try:
     from amuse.community.phantom import Phantom
-except:
+except ImportError:
     Phantom = None
 try:
     from amuse.community.arepo import Arepo
@@ -342,7 +342,6 @@ def main():
     # ax 3: ?
 
     plt.savefig('plot.pdf')
-    return
 
 
 if __name__ == "__main__":
